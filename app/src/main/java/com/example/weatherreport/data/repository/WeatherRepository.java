@@ -19,7 +19,7 @@ import retrofit2.Response;
 public class WeatherRepository {
     private WeatherDao weatherDao;
     private WeatherApiService apiService;
-    private String apiKey = "0a8ee831e276d4b441650b3dbe25151e"; // 替换为有效的OpenWeather API Key
+    private String apiKey = "xxxxxxxxxxxxxxx"; // 替换为有效的OpenWeather API Key
 
     public WeatherRepository(Application application) {
         WeatherDatabase database = WeatherDatabase.getInstance(application);
